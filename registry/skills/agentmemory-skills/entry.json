@@ -26,6 +26,6 @@
       "--skill",
       "*"
     ],
-    "notes": "Memory workflows use the AgentMemory MCP server. Install the companion MCP entry and start `npx -y @agentmemory/agentmemory@0.9.31` separately for the complete tool set. These instruction files do not install automatic capture hooks; prompts and tool activity are captured only when a supported hook integration is installed separately."
+    "notes": "Requires Node.js 22.20 or newer for the skills installer. Memory workflows use the AgentMemory MCP server. Install the companion MCP entry and start `npx -y @agentmemory/agentmemory@0.9.31` separately for the complete tool set. These instruction files do not install automatic capture hooks; prompts and tool activity are captured only when a supported hook integration is installed separately."
   }
 }
