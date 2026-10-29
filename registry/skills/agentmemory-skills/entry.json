@@ -24,8 +24,9 @@
     "args": [
       "https://github.com/rohitg00/agentmemory/tree/c5b8ebfb32eb6a08fe301d3bb75840f3597b66c8/plugin/skills",
       "--skill",
-      "*"
+      "*",
+      "--global"
     ],
-    "notes": "Requires Node.js 22.20 or newer for the skills installer. Memory workflows use the AgentMemory MCP server. Install the companion MCP entry and start `npx -y @agentmemory/agentmemory@0.9.31` separately for the complete tool set. These instruction files do not install automatic capture hooks; prompts and tool activity are captured only when a supported hook integration is installed separately."
+    "notes": "Installs all 17 skills at user scope for use across projects. Requires Node.js 22.20 or newer for the skills installer. Memory workflows use the AgentMemory MCP server. Install the companion MCP entry and start `npx -y @agentmemory/agentmemory@0.9.31` separately for the complete tool set. These instruction files do not install automatic capture hooks; prompts and tool activity are captured only when a supported hook integration is installed separately."
   }
 }
